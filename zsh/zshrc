@@ -1,0 +1,4 @@
+source ~/.config/zsh/aliases.zsh
+autoload -U compinit promptinit
+compinit
+promptinit
