@@ -5,6 +5,7 @@
 !/lf
 !/.Xmodmap
 !/.gitignore
-/leftwm/*
-!/leftwm/config.toml
+!/leftwm/
+leftwm/themes/*
+leftwm/themes.toml
 !/alacritty
