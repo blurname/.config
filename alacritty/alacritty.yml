@@ -111,7 +111,9 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: SauceCodePro NerdFont
+    #family: source code pro  
+    family: SauceCodePro Nerd Font 
+    #family: Inconsolata
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -122,7 +124,10 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: SauceCodePro NerdFont
+    #family: Fira Code
+    family: SauceCodePro Nerd Font 
+    #family: source code pro  
+      #family: Inconsolata
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -134,7 +139,11 @@ font:
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
     #family: monospace
-    family: SauceCodePro NerdFont
+    #family: Fira Code
+    family: SauceCodePro Nerd Font 
+    #family: source code pro  
+      #family: Inconsolata
+      #family: SauceCodePro NerdFont 
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -146,15 +155,19 @@ font:
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
     #family: monospace
-    family: SauceCodePro NerdFont
+    family: SauceCodePro Nerd Font 
+    #family: source code pro  
+      #family: Inconsolata
+      #family: Fira Code
+      #family: SauceCodePro NerdFont
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
 
   # Point size
-  size: 12.0
+  size: 13.0
 
-  # Offset is the extra space around each character. `offset.y` can be thought
+  # Offse is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
   #offset:
@@ -178,11 +191,11 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-colors:
+#colors:
   # Default colors
-  primary:
-    background: '#1d1f21'
-    foreground: '#c5c8c6'
+  #  primary:
+  #  background: '#1d1f21'
+  #  foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
     #
@@ -251,40 +264,40 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  normal:
-   black:   '#1d1f21'
-   red:     '#cc6666'
-   green:   '#b5bd68'
-   yellow:  '#f0c674'
-   blue:    '#81a2be'
-   magenta: '#b294bb'
-   cyan:    '#8abeb7'
-   white:   '#c5c8c6'
-
+  #  normal:
+  #   black:   '#1d1f21'
+  #   red:     '#cc6666'
+  #   green:   '#b5bd68'
+  #   yellow:  '#f0c674'
+  #   blue:    '#81a2be'
+  #   magenta: '#b294bb'
+  #   cyan:    '#8abeb7'
+  #   white:   '#c5c8c6'
+  #
   # Bright colors
-  bright:
-    black:   '#666666'
-    red:     '#d54e53'
-    green:   '#b9ca4a'
-    yellow:  '#e7c547'
-    blue:    '#7aa6da'
-    magenta: '#c397d8'
-    cyan:    '#70c0b1'
-    white:   '#eaeaea'
+  #  bright:
+  #    black:   '#666666'
+  #    red:     '#d54e53'
+  #    green:   '#b9ca4a'
+  #    yellow:  '#e7c547'
+  #    blue:    '#7aa6da'
+  #    magenta: '#c397d8'
+  #    cyan:    '#70c0b1'
+  #    white:   '#eaeaea'
 
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
-  dim:
-    black:   '#131415'
-    red:     '#864343'
-    green:   '#777c44'
-    yellow:  '#9e824c'
-    blue:    '#556a7d'
-    magenta: '#75617b'
-    cyan:    '#5b7d78'
-    white:   '#828482'
+  #  dim:
+  #    black:   '#131415'
+  #    red:     '#864343'
+  #    green:   '#777c44'
+  #    yellow:  '#9e824c'
+  #    blue:    '#556a7d'
+  #    magenta: '#75617b'
+  #    cyan:    '#5b7d78'
+  #    white:   '#828482'
 
   # Indexed Colors
   #
@@ -341,7 +354,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.6
+# background_opacity: 0.6
 
 #selection:
   # This string contains all characters that are used as separators for
@@ -360,7 +373,7 @@ cursor:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    shape: Underline
+    shape: Block
 
     # Cursor blinking state
     #
