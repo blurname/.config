@@ -9,3 +9,4 @@
 leftwm/themes/*
 leftwm/themes.toml
 !/alacritty
+!/pam_environment
