@@ -11,3 +11,4 @@ leftwm/themes.toml
 !/alacritty
 !/pam_environment
 !/.bashrc
+!/picom.conf
