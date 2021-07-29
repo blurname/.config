@@ -12,3 +12,6 @@ leftwm/themes.toml
 !/pam_environment
 !/.bashrc
 !/picom.conf
+!/config
+!/.xinitrc
+
