@@ -30,8 +30,8 @@ window:
   # must be at least `2`, while using a value of `0` for columns and lines will
   # fall back to the window manager's recommended size.
   dimensions:
-    columns: 120
-    lines: 50
+    columns: 0
+    lines: 0
 
   # Window position (changes require restart)
   #
@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: none
+  decorations: full
 
   # Startup Mode (changes require restart)
   #
@@ -168,7 +168,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 13.0
+  size: 8.0
 
   # Offse is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -357,7 +357,7 @@ font:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-# background_opacity: 0.6
+background_opacity: 0.95
 
 #selection:
   # This string contains all characters that are used as separators for
