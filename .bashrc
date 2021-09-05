@@ -59,6 +59,7 @@ PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
 # Set prompt
 PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
-
+setterm -blength 0
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+
