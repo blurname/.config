@@ -111,55 +111,65 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: source code pro  
-    family: SauceCodePro Nerd Font 
+    #family: SauceCodePro Nerd Font Mono
+    family: jetbrainsmono nerd font mono
+    #family: notoserif nerd font
+    #family: iosevka
+      #family: caskaydiacove nerd font mono
       #family: FiraCode Nerd Font Mono
-    #family: Inconsolata
+    # family: Inconsolata
 
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Bold font face
-  bold:
-    # Font family
-    #
-    # If the bold family is not specified, it will fall back to the
-    # value specified for the normal font.
-    #family: Fira Code
-    family: SauceCodePro Nerd Font 
-      #family: FiraCode Nerd Font Mono
-    # family: SauceCodePro Nerd Font 
-    #family: source code pro  
-      #family: Inconsolata
+  #bold:
+    ## Font family
+    ##
+    ## If the bold family is not specified, it will fall back to the
+    ## value specified for the normal font.
+    ##family: Fira Code
+    ##family: SauceCodePro Nerd Font mono
+    #family: iosevka
+     ## family: CaskaydiaCove Nerd Font
+    ##
+      ##family: FiraCode Nerd Font Mono
+    ## family: SauceCodePro Nerd Font 
+    ##family: source code pro  
+      ##family: Inconsolata
 
-    # The `style` can be specified to pick a specific face.
-    style: Bold
+    ## The `style` can be specified to pick a specific face.
+    #style: Bold
 
   # Italic font face
-  italic:
+  #italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
     #family: monospace
     #family: Fira Code
-    family: SauceCodePro Nerd Font 
+    #family: notoserif nerd font mono
+    #family: iosevka
+    #family: SauceCodePro Nerd Font Mono
       #family: SauceCodePro Nerd Font 
     #family: source code pro  
       #family: Inconsolata
       #family: SauceCodePro NerdFont 
 
     # The `style` can be specified to pick a specific face.
-    style: Italic
+    #style: Italic
 
   # Bold italic font face
-  bold_italic:
+  #bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
+    #family: jetbrainsmono nerd font mono
+    #family: iosevka
     #family: monospace
-    family: SauceCodePro Nerd Font 
+    #family: SauceCodePro Nerd Font Mono
       #family: FiraCode Nerd Font Mono
     #family: source code pro  
       #family: Inconsolata
@@ -167,10 +177,10 @@ font:
       #family: SauceCodePro NerdFont
 
     # The `style` can be specified to pick a specific face.
-    style: Bold Italic
+    #style: Bold Italic
 
   # Point size
-  size: 8.0
+  size: 9.0
 
   # Offse is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -359,7 +369,7 @@ font:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.80
+background_opacity: 0.75
 
 #selection:
   # This string contains all characters that are used as separators for
