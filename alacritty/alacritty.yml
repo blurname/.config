@@ -112,7 +112,8 @@ font:
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
     #family: SauceCodePro Nerd Font Mono
-    family: jetbrainsmono nerd font mono
+    #family: jetbrainsmono nerd font mono
+    family: firacode nerd font mono
     #family: notoserif nerd font
     #family: iosevka
       #family: caskaydiacove nerd font mono
