@@ -4,7 +4,7 @@ tags = ["code", "web", "music", "4", "5", "6", "7", "8", "9"]
 
 [[keybind]]
 command = "Execute"
-value = "dmenu_run"
+value = "rofi -show run"
 modifier = ["modkey"]
 key = "p"
 
