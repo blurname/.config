@@ -1,6 +1,24 @@
 modkey = "Mod4"
 workspaces = []
-tags = ["code", "web", "music", "4", "5", "6", "7", "8", "9"]
+tags = ["🍵", "🍟", "🍛", "🌿", "🍒", "🍫", "🍰", "🍧", "🍎"]
+
+[[keybind]]
+command = "Execute"
+value = "bash ./scripts/vol-up.sh"
+modifier = ["modkey","Control"]
+key = "Up"
+
+[[keybind]]
+command = "Execute"
+value = "bash ./scripts/vol-down.sh"
+modifier = ["modkey","Control"]
+key = "Down"
+
+[[keybind]]
+command = "Execute"
+value = "bash ./scripts/wp-change.sh"
+modifier = ["modkey","Control"]
+key = "Left"
 
 [[keybind]]
 command = "Execute"

@@ -6,12 +6,13 @@
 !/.Xmodmap
 !/.gitignore
 !/leftwm/
-leftwm/themes/*
-leftwm/themes.toml
+leftwm/themes/current
+/*leftwm/themes.toml*/
 !/alacritty
 !/pam_environment
 !/.bashrc
 !/picom.conf
 !/config
 !/.xinitrc
+!/eww
 
