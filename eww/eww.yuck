@@ -52,7 +52,7 @@
   "scripts/getvol")
 
 (defpoll time :class "label" :interval "10s"
-  "date '+%H:%M %b %d, %Y'")
+  "date '+%H:%M %b %d, %Y  '")
 
 (deflisten wm-tags
   "leftwm-state -w 0 -t ~/.config/leftwm/themes/current/template.liquid")
@@ -62,8 +62,8 @@
   :windowtype "dock"
   :geometry (geometry :x "0%"
                       :y "0%"
-                      :width "100%"
+                      :width "90%"
                       :height "5px"
-                      :anchor "top center")
+                      :anchor "top left")
   :reserve (struts :side "top" :distance "3%")
   (bar))
