@@ -1,2 +1,2 @@
 #!/bin/bash
-feh -r --randomize --bg-fill ~/wallpapers/
+feh --randomize --bg-fill ~/wallpapers/

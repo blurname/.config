@@ -15,4 +15,5 @@ leftwm/themes/current
 !/config
 !/.xinitrc
 !/eww
+!/rofi
 

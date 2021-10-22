@@ -4,6 +4,11 @@ tags = ["🍵", "🍟", "🍛", "🌿", "🍒", "🍫", "🍰", "🍧", "🍎"]
 
 [[keybind]]
 command = "Execute"
+value = "flameshot gui"
+modifier = ["modkey"]
+key = "a"
+[[keybind]]
+command = "Execute"
 value = "bash ./scripts/vol-up.sh"
 modifier = ["modkey","Control"]
 key = "Up"
